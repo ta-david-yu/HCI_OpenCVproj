@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+	<ScreenWindow w="640" h="480"></ScreenWindow>
+	<ShowDebugWindow>0</ShowDebugWindow>
+	<Seed>108</Seed>
+	<TrackingColor>
+		<Upper h="35" s="230" v="255"></Upper>
+		<Lower h="10" s="110" v="170"></Lower>
+	</TrackingColor>
+	<TrackingRadius>
+		<Upper>100</Upper>
+		<Lower>5</Lower>
+	</TrackingRadius>
+	<TrackingBlurMur>2</TrackingBlurMur>
+	<Maps>
+		<Offset>32</Offset>
+		<Origin x="16" y="16"></Origin>
+	</Maps>
+	<SelectPositions>
+		<Time>1</Time>
+		<Offset h="30" s="30" v="40"></Offset>
+		<Right>
+			<Position x="420" y="300"></Position>
+			<Position x="420" y="180"></Position>
+		</Right>
+		<Left>
+			<Position x="220" y="300"></Position>
+			<Position x="220" y="180"></Position>
+		</Left>
+	</SelectPositions>
+</Game>

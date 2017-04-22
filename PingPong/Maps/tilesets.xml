@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+	<TileSets>
+		<Tile name="Floor">
+			<Code>O</Code>
+			<Score>1.0f</Score>
+			<Images type="sliced">
+				<Image>CaveFloor_00.png</Image>
+				<Image>CaveFloor_01.png</Image>
+				<Image>CaveFloor_02.png</Image>
+				<Image>CaveFloor_03.png</Image>
+				<Image>CaveFloor_04.png</Image>
+				<Image>CaveFloor_05.png</Image>
+				<Image>CaveFloor_06.png</Image>
+				<Image>CaveFloor_07.png</Image>
+				<Image>CaveFloor_08.png</Image>
+			</Images>
+		</Tile>
+		<Tile name="Water">
+			<Code>_</Code>
+			<Score>-5.0f</Score>
+			<Images type="animated">
+				<Image>Sea_alpha_00.png</Image>
+			</Images>
+		</Tile>
+	</TileSets>
+	<Items>
+		<Item name="Ring">
+			<Image>SonicRing.png</Image>
+			<Radius>16</Radius>
+			<Score>50</Score>
+			<Speed>20</Speed>
+			<Death>0</Death>
+			<Eatable>1</Eatable>
+		</Item>
+		<Item name="Rock0">
+			<Image>mount_00.png</Image>
+			<Radius>20</Radius>
+			<Score>0</Score>
+			<Speed>-100</Speed>
+			<Death>0</Death>
+			<Eatable>0</Eatable>
+		</Item>
+		<Item name="Rock1">
+			<Image>mount_00.png</Image>
+			<Radius>20</Radius>
+			<Score>0</Score>
+			<Speed>-100</Speed>
+			<Death>0</Death>
+			<Eatable>0</Eatable>
+		</Item>
+		<Item name="Rock2">
+			<Image>mount_00.png</Image>
+			<Radius>20</Radius>
+			<Score>0</Score>
+			<Speed>-100</Speed>
+			<Death>0</Death>
+			<Eatable>0</Eatable>
+		</Item>
+		<Item name="Rock3">
+			<Image>mount_00.png</Image>
+			<Radius>20</Radius>
+			<Score>0</Score>
+			<Speed>-100</Speed>
+			<Death>0</Death>
+			<Eatable>0</Eatable>
+		</Item>
+	</Items>
+</Game>
